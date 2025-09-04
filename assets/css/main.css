@@ -59,6 +59,16 @@
 :root {
   scroll-behavior: smooth;
 }
+.logo-img {
+  max-width: 150px;   /* adjust size as needed */
+  height: auto;       /* keeps aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    max-width: 100px; /* smaller on mobile */
+  }
+}
 
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
